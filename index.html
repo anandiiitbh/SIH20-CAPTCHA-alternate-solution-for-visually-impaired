@@ -68,9 +68,9 @@
   <?php	
 		$capt = array("30", "10", "8" , "13" , "11" );
 		$num=$capt[rand(0,4)];
-		$_SESSION['capp']=$num;
+		$_SESSION['capp']=$num;?>
   
-  echo'	<source src="'.$num.'.mp3" type="audio/mpeg" >
+ 	<source src="<?php$num?>.mp3" type="audio/mpeg" >
 Your browser does not support the audio element.
 </audio></div>
 <input type="text" placeholder = "Enter Captcha" name="fname"><br>
@@ -80,8 +80,7 @@ Your browser does not support the audio element.
 <a href="/pass/forgot_password.php">forgot passowrd</a><br>
 <a href="/pass/signup.php">New User?? Sign Up</a>
 </div>
-</form>';
-?>
+</form>
 	
 </center>
 </body>
