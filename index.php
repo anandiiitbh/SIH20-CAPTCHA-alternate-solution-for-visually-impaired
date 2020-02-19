@@ -23,6 +23,8 @@
 
 <center>
 <h1>Indian Institute Of Information Technology, Bhagalpur</h1><br>
+<h1>CAPTCHA/Alternate solution for visually impaired</h1><br>
+	
 
 <a href="index.php">
 
