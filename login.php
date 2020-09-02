@@ -4,7 +4,6 @@
     $error = ''; // Variable To Store Error Message
 	$_SESSION['val']=0;
     if (isset($_POST['submit'])) {
-		include('AND/php/session.php');
     if (empty($_POST['username']) || empty($_POST['password'])) {
     $error = "Username or Password is invalid";
     }
